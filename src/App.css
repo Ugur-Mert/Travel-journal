@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+/*Navbar components*/
+Nav {
+  background-color: #f55a5a;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.nav-icon {
+  height: 24px;
+  margin-right: 7px;
+  color: white;
+}
+
+.nav-header {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/*Card components*/
+
+.card {
+  display: flex;
+  margin: 45px 10% 36px 10%;
+}
+
+.card-image {
+  width: 125px;
+  height: 168px;
+  border-radius: 9px;
+}
+
+.card-info {
+  text-align: left;
+  margin-left: 19px;
+  margin-top: 19px;
+}
+
+.location-icon {
+  width: 7px;
+  color: #f55a5a;
+}
+
+.card-url {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+
+.card-location {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+  margin-top: 7px;
+  margin-bottom: 14px;
+}
+
+.card-dates {
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+.card-des {
+  width: 325px;
+  font-weight: 400;
+  font-size: 10px;
+  margin-top: 9px;
+}
